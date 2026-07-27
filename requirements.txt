@@ -1,0 +1,57 @@
+# ===========================
+# MULTIMODAL RAG DEPENDENCIES
+# ===========================
+
+# Core orchestrazione e LLM
+langchain>=0.1.0
+langchain_community>=0.0.20
+langchain-groq>=0.1.0
+langchain-text-splitters>=0.0.1
+langchain-experimental>=0.0.20
+langchain-huggingface>=0.3.0  # Updated for LangChain v0.3 compatibility
+llama-index>=0.10.0
+llama-index-embeddings-huggingface>=0.2.0
+tiktoken>=0.5.0
+
+# Database vettoriale
+langchain_qdrant>=0.1.0
+qdrant-client>=1.7.0
+
+# Embedding e modelli
+ultralytics>=8.0.0
+transformers>=4.30.0
+sentence-transformers>=2.2.0
+
+# Processing documenti e OCR  
+unstructured[pdf,local-inference]>=0.12.0
+pypdf>=4.0.0
+pytesseract>=0.3.10
+PyMuPDF>=1.23.0
+Pillow>=10.0.0
+opencv-python>=4.8.0
+
+# Interface utente
+streamlit>=1.30.0
+streamlit_pdf_viewer>=0.0.12
+
+# Utilità
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Testing e Development
+pytest>=7.0.0
+pytest-cov>=4.0.0
+pytest-mock>=3.0.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
+pre-commit>=3.0.0
+
+# Monitoring e Performance
+psutil>=5.9.0
+memory-profiler>=0.61.0
